@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-foxl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0049-tenant/tkrw-pr714-0075-0049-app/devfile-sample-foxl@sha256:37fb71381f0ea5db0c154fef644701d6e0142710cef0314c7511fe562deffce7
         name: my-nodejs
         ports:
         - containerPort: 3001
